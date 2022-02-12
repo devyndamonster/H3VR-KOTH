@@ -86,6 +86,7 @@ ImportedBundles/
 /[Aa]ssets/MeatKit/Managed/OtherLoader.*
 /[Aa]ssets/MeatKit/Managed/ReadOnlyCollectionsInterfaces.*
 /[Aa]ssets/MeatKit/Managed/Stratum.*
+/[Aa]ssets/MeatKit/Managed/MetaRipper.*
 
 # No Bakery 4 U
 /[Aa]ssets/Bakery/
@@ -97,6 +98,9 @@ ImportedBundles/
 
 # Ignore Samples
 Assets/Samples/
+
+#No Probuilder
+Assets/ProCore/
 
 # Ignore any imported build items
 /[Aa]ssets/MeatKit/Editor/BuildPipeline/BuildItems/*.cs
