@@ -201,6 +201,7 @@ namespace KOTH
         {
             playerSpawn.position = currentLevel.spectatePoint.position;
             playerSpawn.rotation = currentLevel.spectatePoint.rotation;
+            GM.CurrentSceneSettings.DeathResetPoint = playerSpawn;
         }
 
 
@@ -220,6 +221,8 @@ namespace KOTH
                 playerSpawn.position = currentLevel.PlayerBackupSpawn.position;
                 Debug.Log("Spawning player at backup spawn. Position: " + playerSpawn.position);
             }
+
+            GM.CurrentSceneSettings.DeathResetPoint = playerSpawn;
         }
 
 
