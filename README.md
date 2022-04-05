@@ -1,8 +1,19 @@
-# MeatKit
-MeatKit is a Unity Editor modding toolkit for developing and packaging custom maps, guns, and mods for Hot Dogs, Horseshoes & Handgrenades. Using MeatKit creating and exporting mods is easier than ever.
+# King Of The Hill
+This Meatkit package allows you to create maps for the 'King Of The Hill' gamemode
 
 ## Setup
-Checkout the wiki for setup and getting started guides: https://h3vr-modding.github.io/wiki/creating/meatkit/intro.html
+- Download the latest KOTH Package from the releases page
+    - ***Do not download this git repo directly***
+- Setup a fresh Meatkit project ([Tutorial Here](https://www.youtube.com/watch?v=BScDQiGCRAM&list=PL4xZPb3t-cEFkCxo648hdTulxKYy08thY&index=1))
+    - Make sure your import both the Atlas and Otherloader packages included with meatkit
+- Import the KOTH Package into your project
+- In the samples folder, you will now see a KOTH Sample scene!
 
-## Contributing
-If you'd like to help develop MeatKit give me a shout on Discord `@nrgill28#9007`. I'd appreciate having a chance to talk about any changes you plan on making before you make a PR.
+## What's Included?
+- A Sample KOTH Scene
+- Some basic cover models
+- A ProBuilder package for Unity 5.6
+
+![Picture](https://i.imgur.com/Z5uZeN8.png)
+
+
