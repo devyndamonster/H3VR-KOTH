@@ -259,7 +259,7 @@ namespace KOTH
 			PlayerTracker.currentPlayerState = PlayerState.spectating;
 
 			GM.CurrentPlayerRoot.localScale = new Vector3(10, 10, 10);
-			WristMenuAPI.Instance.transform.localScale = GM.CurrentPlayerRoot.localScale;
+			WristMenuAPI.Instance2.transform.localScale = GM.CurrentPlayerRoot.localScale;
 			GM.CurrentMovementManager.TeleportToPoint(point.position, true, point.forward);
 			GM.CurrentMovementManager.Mode = (FVRMovementManager.MovementMode)10;
 			GM.CurrentPlayerBody.SetPlayerIFF(-3);
@@ -278,7 +278,7 @@ namespace KOTH
 			PlayerTracker.currentPlayerState = PlayerState.playing;
 
 			GM.CurrentPlayerRoot.localScale = new Vector3(1, 1, 1);
-			WristMenuAPI.Instance.transform.localScale = GM.CurrentPlayerRoot.localScale;
+			WristMenuAPI.Instance2.transform.localScale = GM.CurrentPlayerRoot.localScale;
 			GM.CurrentMovementManager.Mode = GM.Options.MovementOptions.CurrentMovementMode;
 			GM.CurrentPlayerBody.SetPlayerIFF(0);
 			GM.CurrentPlayerBody.EnableHitBoxes();
